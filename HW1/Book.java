@@ -17,18 +17,16 @@ class Book extends Media implements Comparable<Media>
       if(book instanceof Book){
         Book otherBook = (Book) book;
         if (this.title.equals(otherBook.title))
-        if(this.author.equals(otherBook.author))
-        return 0;
-        else if(this.author.compareTo(otherBook.author) > 0)
-        return 1;
-        else
-        return -1;
+          if(this.author.equals(otherBook.author))
+            return 0;
+          else if(this.author.compareTo(otherBook.author) > 0)
+            return 1;
+          else
+            return -1;
         else if (this.title.compareTo(otherBook.title) > 0)
-        return 1;
+          return 1;
         else
-        return -1;
-      }else{
-        return super.compareTo(book);
+          return -1;
       }
    }
 }

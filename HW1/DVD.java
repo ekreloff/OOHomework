@@ -19,18 +19,16 @@ class DVD extends Media implements Comparable<Media>
       if(dvd instanceof DVD){
         DVD otherDVD = (DVD) dvd;
         if (this.title.equals(otherDVD.title))
-        if(this.year == otherDVD.year)
-        return 0;
-        else if(this.year > otherDVD.year)
-        return 1;
-        else
-        return -1;
+          if(this.year == otherDVD.year)
+            return 0;
+          else if(this.year > otherDVD.year)
+            return 1;
+          else
+            return -1;
         else if (this.title.compareTo(otherDVD.title) > 0 )
-        return 1;
+          return 1;
         else
-        return -1;
-      }else{
-        return super.compareTo(dvd);
+          return -1;
       }
-    }
+   }
 }
