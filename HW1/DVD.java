@@ -30,5 +30,11 @@ class DVD extends Media implements Comparable<Media>
         else
           return -1;
       }
+
+      if(dvd instanceof Book){
+        return -1;
+      }
+      
+      return 0;
    }
 }
