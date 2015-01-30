@@ -1,3 +1,7 @@
+/* UserUtility.java
+* Modified by Ethan Kreloff on January 30th, 2015
+*/
+
 class Book extends Media implements Comparable<Media>
 {
     private String author;
@@ -32,7 +36,7 @@ class Book extends Media implements Comparable<Media>
       if(book instanceof DVD){
         return 1;
       }
-      
+
       return 0;
    }
 }

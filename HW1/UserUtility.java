@@ -1,5 +1,5 @@
 /* UserUtility.java
- * Created by Ethan Kreloff on January 9th, 2015
+ * Created by Ethan Kreloff on January 30th, 2015
  */
 
 public class UserUtility

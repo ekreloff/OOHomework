@@ -1,3 +1,7 @@
+/* UserUtility.java
+* Modified by Ethan Kreloff on January 30th, 2015
+*/
+
 import java.util.*;
 public class Driver
 {

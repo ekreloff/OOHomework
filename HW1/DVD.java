@@ -1,3 +1,7 @@
+/* UserUtility.java
+* Modified by Ethan Kreloff on January 30th, 2015
+*/
+
 class DVD extends Media implements Comparable<Media>
 {
     private int year;
@@ -34,7 +38,7 @@ class DVD extends Media implements Comparable<Media>
       if(dvd instanceof Book){
         return -1;
       }
-      
+
       return 0;
    }
 }
