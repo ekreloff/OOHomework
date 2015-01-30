@@ -1,4 +1,4 @@
-/* UserUtility.java
+/* Media.java
 * Modified by Ethan Kreloff on January 30th, 2015
 */
 
